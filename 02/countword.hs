@@ -1,2 +1,2 @@
 main = do cs <- getContents
-          print $ words cs
+          print $ length $ words cs
